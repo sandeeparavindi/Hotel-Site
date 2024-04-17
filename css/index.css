@@ -1,3 +1,4 @@
+/* navbar part */
 .navbar {
     background-color: #f8f9fa; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -53,6 +54,8 @@
     color: #343a40; 
 }
 
+/* carousel part */
+
 .carousel-caption {
     position: absolute;
     top: 300px;
@@ -79,12 +82,16 @@
     border-radius: 10px;
     box-shadow: gray 1px 2px 3px;
 }
+
+/* about part */
   
   .aboutMy {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* padding: 20px; */
+    /* background-color: #fff; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    text-align: justify;
+    margin-bottom: 30px;
   }
 
   .aboutMy img {
@@ -92,19 +99,6 @@
     height: 150px; 
     border-radius: 5px;
     margin-bottom: 20px;
-  }
-
-  #edu {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  #edu:hover {
-    background-color: #0056b3;
   }
 
   @media (max-width: 768px) {
@@ -117,8 +111,67 @@
     font-size: 28px; 
     color: black; 
     margin-bottom: 20px; 
-    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  /* card part */
+
+  #special {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #offers{
+    color: orangered;
+    font-size: 35px;
+  }
+  .center.offers{
+    text-align: center;
+    margin-top: 30px;
+  }
+  #deals{
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+  }
+  .col{
+    margin-top: 90px;
+    text-align: justify;
+  }
+
+  /* accomadation part */
+
+  .title-accomadation{
+    margin-top: 80px;
+  }
+
+  .card.border-success.mb-3{
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+  }
+  .card-header.bg-transparent.border-success{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+  .sub-title{
+    font-size: 15px;
+    font-weight: lighter;
+    
+  }
+  .address{
+    color: black;
+    color: white;
+  }
+  .mobile-num{
+    color: black;
+    color: white;
+  }
+  .footer{
+    font-size: 12px;
+    font-weight: lighter;
+    color: wheat;
+  }
+
   

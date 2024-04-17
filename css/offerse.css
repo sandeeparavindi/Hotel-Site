@@ -1,0 +1,39 @@
+.body {
+    margin-left: 15px;
+}
+.center.offers{
+    text-align: center;
+    margin-top: 30px;
+  }
+#special {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #offers{
+    color: orangered;
+    font-size: 35px;
+  }
+  .row.row-cols-1.row-cols-md-2.g-4{
+    margin-top: 20px;
+  }
+  
+.col {
+    display: inline-block;
+    width: calc(25% - 20px);
+    margin-right: 20px; 
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: calc(50% - 20px);
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .col {
+        width: 100%;
+    }
+}
+
