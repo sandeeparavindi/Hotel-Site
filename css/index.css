@@ -1,7 +1,8 @@
 /* navbar part */
 .navbar {
-    background-color: #f8f9fa; 
+    background-color: #0b1a2a; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 100px;
 }
 
 .navbar-brand {
@@ -17,7 +18,6 @@
 
 .navbar-nav .nav-item {
     font-weight: 600;
-    
 }
 
 .nav-item .nav-link.active:hover {
@@ -83,20 +83,81 @@
     box-shadow: gray 1px 2px 3px;
 }
 
+.form-search {
+  max-width: 972px;
+  background: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 15px 5px 15px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1); }
+  @media (min-width: 992px) {
+    .form-search-position {
+      position: relative;
+      bottom: 104px;
+      z-index: 1; } }
+  .form-search .form-control {
+    font-size: 14px;
+    color: #999999;
+    border-radius: 0;
+    height: 50px;
+    padding-left: 18px;
+    border-color: #ECECEC; }
+    .form-search .form-control:focus {
+      outline: 0;
+      box-shadow: none; }
+    .form-search .form-control::placeholder {
+      color: #999999; }
+  .form-search .form-group {
+    margin-bottom: 20px; }
+    .form-search .form-group .nice-select {
+      margin-bottom: 20px; }
+  .form-search button {
+    width: 100%;
+    font-size: 13px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    border: 0;
+    background: #cca772;
+    height: 50px;
+    text-transform: uppercase; }
+
+.form-select-custom {
+  width: 100%; }
+  .form-select-custom select {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border: 1px solid #ECECEC;
+    background: #fff url("../img/home/down-arrow.png") no-repeat;
+    background-size: 11px;
+    background-position: right 15px center;
+    padding-left: 18px;
+    color: #999999;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none; }
+    .form-select-custom select:focus {
+      outline: 0;
+      box-shadow: none; }
+
+      .button-form:hover {
+        background: #c0a37b;
+      }
+
 /* about part */
-  
+
   .aboutMy {
     /* padding: 20px; */
     /* background-color: #fff; */
     /* border-radius: 10px; */
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     text-align: justify;
-    margin-bottom: 30px;
   }
 
   .aboutMy img {
+    margin-top: 120px;
     max-width: 100%;
-    height: 150px; 
+    /* height: 150px;  */
     border-radius: 5px;
     margin-bottom: 20px;
   }
@@ -139,10 +200,19 @@
     text-align: justify;
   }
 
+  .card {
+    padding: 30px;
+    margin: 40px;
+  }
+
+  .card img {
+    height: 380px;
+  }
+
   /* accomadation part */
 
   .accomodation-center {
-    margin-bottom: 50px;
+    margin-bottom: 120px;
   }
 
   .title-accomadation{
@@ -172,12 +242,6 @@
     color: black;
     color: white;
   }
-  
-  /* .footer{
-    font-size: 12px;
-    font-weight: lighter;
-    color: wheat;
-  } */
 
   .footer-area {
     padding: 120px 0px 120px;

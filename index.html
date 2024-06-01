@@ -58,42 +58,6 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
-        <div  class="carousel-indicators">
-          <div class="container mt-5" >
-            <div class="row">
-              <div class="col-md-2">
-                <label for="bookingDate">Booking Date:</label>
-                <input type="date" class="form-control" id="bookingDate">
-              </div>
-              <div class="col-md-2">
-                <label for="closeBookingDate">Close Booking Date:</label>
-                <input type="date" class="form-control" id="closeBookingDate">
-              </div>
-              <div class="col-md-2">
-                <label for="memberType">Member Type:</label>
-                <select class="form-control" id="memberType">
-                  <option value="single">Single</option>
-                  <option value="double">Double</option>
-                  <option value="family">Family</option>
-                </select>
-              </div>
-              <div class="col-md-2">
-                <label for="nationality">Nationality:</label>
-                <select class="form-control" id="nationality">
-                  <option value="Sri Lanka">Sri Lanka</option>
-                  <option value="Foreign">Foreign</option>
-                </select>
-              </div>
-              <div class="col-md-2">
-                <label for="promotion">Promotion:</label>
-                <input type="text" class="form-control" id="promotion">
-              </div>
-              <div class="col-md-2 d-flex align-items-end justify-content-end">
-                <button type="submit" class="btn btn-primary">Book Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/assets/hotel-1831072_1280.jpg" class="d-block w-100" alt="..." style="height: 700px; object-fit: cover;" alt="...">
@@ -140,6 +104,83 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <form class="form-search form-search-position">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 gutters-19">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Enter your keywords.." required>
+              </div>
+            </div>
+            <div class="col-lg-6 gutters-19">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="form-group">
+                    <div class="form-select-custom">
+                      <select name="" id="">
+                        <option value="" disabled selected>Arrival</option>
+                        <option value="8 AM">8 AM</option>
+                        <option value="12 PM">12 PM</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm gutters-19">
+                  <div class="form-group">
+                    <div class="form-select-custom">
+                      <select name="" id="">
+                        <option value="" disabled selected>Number of room</option>
+                        <option value="8 AM">8 AM</option>
+                        <option value="12 PM">12 PM</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm gutters-19">
+              <div class="form-group">
+                <div class="form-select-custom">
+                  <select name="" id="">
+                    <option value="" disabled selected>Departure</option>
+                    <option value="8 AM">8 AM</option>
+                    <option value="12 PM">12 PM</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm gutters-19">
+              <div class="form-group">
+                <div class="form-select-custom">
+                  <select name="" id="">
+                    <option value="" disabled selected>Adult</option>
+                    <option value="8 AM">8 AM</option>
+                    <option value="12 PM">12 PM</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm gutters-19">
+              <div class="form-group">
+                <div class="form-select-custom">
+                  <select name="" id="">
+                    <option value="" disabled selected>Child</option>
+                    <option value="8 AM">8 AM</option>
+                    <option value="12 PM">12 PM</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 gutters-19">
+              <div class="form-group">
+                <button class="button button-form" type="submit">Check Availability</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
       <!-- about part -->
   <div class="container">
     <div class="row">
@@ -169,7 +210,7 @@
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">
-        <!-- <img src="/assest/image/bed-8004703_1280.jpg" class="card-img-top" alt="..."> -->
+        <img src="/assets/living-room-2732939_1280.jpg" class="card-img-top" alt="...">
         <div class="card-body">
 
           <h5 class="card-title" style="display: inline;">DELUXE ROOM</h5>
@@ -181,7 +222,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <!-- <img src="/assest/image/bed-8004703_1280.jpg" class="card-img-top" alt="..."> -->
+        <img src="/assets/bedroom-1872196_1280.jpg" class="card-img-top" alt="...">
         <div class="card-body">
 
           <h5 class="card-title" style="display: inline;">SUPEROIR ROOM</h5>
@@ -193,7 +234,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <!-- <img src="/assest/image/table-3084384_1280.jpg" class="card-img-top" alt="..."> -->
+        <img src="/assets/wedding-7608565_1280.jpg" class="card-img-top" alt="...">
         <div class="card-body">
 
           <h5 class="card-title" style="display: inline;">Wedding (May 10 - Jun 06)</h5>
@@ -205,7 +246,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <!-- <img src="/assest/image/lamp-4720975_1280.jpg" class="card-img-top" alt="..."> -->
+        <img src="/assets/pizza-386717_1280.jpg" class="card-img-top" alt="...">
         <div class="card-body">
 
           <h5 class="card-title" style="display: inline;">Pizza (Large)</h5>
