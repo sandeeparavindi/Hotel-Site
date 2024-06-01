@@ -54,6 +54,12 @@
     color: #343a40; 
 }
 
+@media (max-width: 985px) {
+  .navbar {
+    height: auto;
+  }
+}
+
 /* carousel part */
 
 .carousel-caption {
@@ -66,6 +72,17 @@
 
 .carousel-caption div {
     text-align: center;
+}
+
+.carousel-item h5 {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.carousel-item p {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .carousel-caption h5,
@@ -85,7 +102,7 @@
 
 .form-search {
   max-width: 972px;
-  background: #fff;
+  background: white;
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px 5px 15px;
@@ -117,7 +134,7 @@
     font-family: "Playfair Display", serif;
     font-weight: 700;
     border: 0;
-    background: #cca772;
+    background: #78abdb;
     height: 50px;
     text-transform: uppercase; }
 
@@ -134,14 +151,13 @@
     padding-left: 18px;
     color: #999999;
     font-size: 14px;
-    -webkit-appearance: none;
-    -moz-appearance: none; }
+     }
     .form-select-custom select:focus {
       outline: 0;
       box-shadow: none; }
 
-      .button-form:hover {
-        background: #c0a37b;
+.button-form:hover {
+        background: #b9eaf3;
       }
 
 /* about part */
