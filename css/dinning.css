@@ -1,13 +1,13 @@
 .Dining {
-    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-weight: 800;
     color: #0b1a2a;
 }
-p {
+.d-p {
     text-align: justify;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .carousel-item img {
@@ -15,8 +15,13 @@ p {
     height: auto;
 }
 
+.row.row-cols-1.row-cols-md-2.g-4{
+    margin-bottom: 120px;
+  }
+
 @media (min-width: 768px) {
     .card {
         height: 100%;
     }
 }
+

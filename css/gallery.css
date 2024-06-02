@@ -11,13 +11,9 @@
     transform: scale(1.1);
   }
   h3 {
-      margin-top: 50px;
-      text-align: center;
+      margin-left: 300px;
       margin-bottom: 50px;
       font-weight: 800;
       color: #0b1a2a;
   }
-  p {
-      text-align: justify;
-      font-weight: 400;
-  }
+ 
