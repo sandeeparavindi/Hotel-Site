@@ -1,3 +1,4 @@
+
 /* navbar part */
 .navbar {
     background-color: #0b1a2a; 
@@ -134,7 +135,8 @@
     font-family: "Playfair Display", serif;
     font-weight: 700;
     border: 0;
-    background: #78abdb;
+    /* background: #78abdb; */
+    background: #cca772;
     height: 50px;
     text-transform: uppercase; }
 
@@ -157,7 +159,9 @@
       box-shadow: none; }
 
 .button-form:hover {
-        background: #b9eaf3;
+        background: white;
+        border: 1px solid #cca772;
+        color: #cca772;
       }
 
 /* about part */
@@ -258,6 +262,76 @@
     color: black;
     color: white;
   }
+
+  /* special part */  
+.card-special {
+    padding: 45px 35px;
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+.card-special__icon {
+    font-size: 24px;
+    color: #cca772;
+    margin-right: 13px;
+}
+.card-special__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+.card-special .card-body {
+    padding: 15px 0 0 0;
+}
+.card-special .card-body p {
+    margin-bottom: 0;
+    color: #6c757d;
+}
+.card-special:hover {
+    background: #cca772;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.card-special:hover .card-special__icon,
+.card-special:hover .card-special__title {
+    color: #fff;
+}
+.card-special:hover .card-body p {
+    color: #fff;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+.bg-porcelain {
+    background-color: #f5f5f5;
+}
+.section-intro__style img {
+    width: 50px;
+}
+.section-intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.special-img {
+    text-align: center;
+}
+.special-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pb-80px {
+    padding-bottom: 80px;
+}
+.mb-30px {
+    margin-bottom: 30px;
+}
+      
+
+  /* footer  */
 
   .footer-area {
     padding: 120px 0px 120px;
