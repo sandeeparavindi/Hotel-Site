@@ -258,6 +258,28 @@
     color: white;
   }
 
+  @media (max-width: 768px) {
+    #accomodation {
+      text-align: center;
+      margin-top: -20px;
+    }
+    .row.row-cols-2 {
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .row.row-cols-2 > div,
+    .row.row-cols-2 > img {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .row.row-cols-2 > div {
+      margin-top: 20px;
+    }
+  }
+  
   /* special part */  
 .card-special {
     padding: 45px 35px;
@@ -397,6 +419,13 @@
       font-size: 14px;
       color: #303030; }
 
+      @media (max-width: 768px) {
+        #special-fac {
+          margin-top: -20px;
+          margin-bottom: -20px;
+        }
+      }
+
 /* explore room */
 
 .section-margin h2 {
@@ -483,6 +512,12 @@
   padding-left: 10px;
 }
 
+@media (max-width: 768px) {
+  #Explore-room {
+    margin-top: 30px;
+    margin-bottom: -50px;
+  }
+}
 
 /* Custom CSS for the Blog Area */
 #blog-heading {
@@ -732,6 +767,12 @@
   background-color: #E7A905;
 }
 
+@media (max-width: 768px) {
+  #blog-heading {
+    margin-top: -15px;
+    margin-bottom: 60px;
+  }
+}
 
   /* footer  */
 .footer-area {
